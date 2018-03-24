@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+    font-family: Trebuchet;
+}
+
+body {
+    background-color: #D8DBE2;
+}
+
+.pageheader {
+    margin-top: 20px;
+    background-color: #A9BCD0;
+    position: relative;
+}
+
+.pageheader img{
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+
+#footer {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.infoButtons {
+    width: 100%;
+    font-size: 19px;
+    background-color: #373F51;
+    color: #D8DBE2;
+    padding: 13px 20px 13px 20px;
+    border: 0 none;
+    margin: 5px;
+}
+
+.searchContainer {
+    margin: auto;
+    width: 50%;
+}
+
+.searchBarContainer {
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.searchContainer [type=text] {
+    width: 100%;
+    margin: 5px;
+    padding: 7px;
+    text-align: center;
+}
+
+.searchButton {
+    font-size: 15px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border: 0 none;
+    padding: 5px 10px 5px 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    margin: 0 20px 0 20px;
+    width: auto;
+    margin: auto;
+}
+
+.grid-item [type=button] {
+    margin: 0 20px 0 20px;
+    width: 100%;
+}
