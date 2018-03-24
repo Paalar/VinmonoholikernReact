@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Banner from './banner'
+import './css/index.css';
+import MainTemplate from './mainTemplate'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Banner />, document.getElementById('root'));
+ReactDOM.render(<MainTemplate />, document.getElementById('root'));
 registerServiceWorker();
