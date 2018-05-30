@@ -81,7 +81,7 @@ class MainPage extends Component {
                     <Banner />
                     <div className="searchContainer">
                         <input type="text" autoComplete="off" ref={e => this.searchInput = e} id="searchBar" name="Search" placeholder="Søk på navn" onKeyPress={this.getText}/>
-                        <AdvancedSearch />
+                        {/*<AdvancedSearch />*/}
                         <button name="Top200" value="Top 200" id="top200" className="infoButtons" onClick={(event) => { this.handleClick(); this.searchInput.focus();}}>De 200 billigste</button>
                     </div>
                     {this.state.products.length > 0 && <Tables products = {this.state.products} search = {this.state.search}/>}
