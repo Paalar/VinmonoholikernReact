@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
-import MainTemplate from './mainTemplate'
+import MainPage from './mainPage';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<MainTemplate />, document.getElementById('root'));
+ReactDOM.render(<div>
+<MainPage />
+</div>, document.getElementById('root'));
 registerServiceWorker();
