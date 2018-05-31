@@ -17,4 +17,5 @@ What you see on entering the site
 ![Frontpage](https://github.com/Paalar/VinmonoholikernReact/blob/master/images/frontpage.png)
 
 What you see if you search for 'Tequila'
+Clicking the names will send you to their appropriate Vinmonopol product site.
 ![Tequila Page](https://github.com/Paalar/VinmonoholikernReact/blob/master/images/tequilasearch.png)
