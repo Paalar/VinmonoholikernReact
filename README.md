@@ -1,6 +1,6 @@
 # VinmonoholikernReact
 A React version of Vinmonoholikern (Django project is AlcoSearch)
-The site is currently down, but can be reached at https://vinmonoholikern.com
+The site is currently down, but can be reached at https://vinmonoholikern.com when it is up.
 
 Vinmonoholikern uses Vinmonopolets CSV database and sorts through the items by what is cheapest with the factors literprice and ABV.
 
